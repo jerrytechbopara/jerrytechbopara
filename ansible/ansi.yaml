@@ -1,0 +1,52 @@
+---
+  - name: "Playing with Ansible and Git"
+    hosts: localhost
+    connection: local 
+    tasks:
+
+    - name: "just execute a ls -lrt command"
+      shell: "ping -c 1 -w 2 localhost" ### 2>&1 > /dev/null"
+      register: "output"
+      ignore_errors: yes
+     # failed_when: "output.rc != 0"
+    - fail:
+        msg: localhost not avaliable
+      when: "output.rc != 0"
+      ignore_errors: yes
+      #    - name: Example using Pass and when together
+    - debug:
+         msg: "localhost avaliable"
+      when: "output.rc == 0"
+      ##########################################
+
+    - name: date and time
+      vars:
+       msg: |
+        Date: {{ ansible_date_time.date }}
+        Timezone: {{ ansible_date_time.tz }}
+      debug:
+       msg: "{{ msg.split('\n') }}"
+
+
+    - name: OS and Kernel info
+      vars:
+       msg: |
+        Distribution: {{ ansible_distribution }}
+        Release: {{ ansible_distribution_release }}
+        Distribution Version: {{ ansible_distribution_version }}
+        Kernel: {{ ansible_kernel }}
+        Architecture: {{ ansible_architecture }}
+      debug:
+       msg: "{{ msg.split('\n') }}"
+
+    - name: HW info
+      vars:
+       msg: |
+        CPU: {{ ansible_processor }}
+        CPU Core: {{ ansible_processor_cores }}
+        RAM: {{ ansible_memtotal_mb }}
+        SWAP: {{ ansible_memory_mb.swap.total }}
+      debug:
+
+       msg: "{{ msg.split('\n') }}"
+      # - debug: var=output.stdout_lines
