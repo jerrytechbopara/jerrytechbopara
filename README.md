@@ -1,6 +1,6 @@
 ### Hey There :-) 
 
-- 😄 :man_technologist:	I’m currently working on :point_right: DevOps/SecOps.
+- 😄 :man_technologist:	I’m an :point_right: DevOps/SecOps.
 - 👯 Open to collaborate on :point_right: All Kind of Small & Big Projects of DevOPS|Cloud Infrastructure| Security Analysis|Server Administration|Hosting Consultation.
 - 💬 Specialized in :point_right: Docker | Kubernetes | ECS | EKS | AKS | Container Instances | Ansible | Terraform | Server Architect |
 Linux Administrator | API Gateway Management | Build & Releases | Continuous Integration | Jenkins |
