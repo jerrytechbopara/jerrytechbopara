@@ -1,10 +1,16 @@
 ### Hey There :-) 
 
-- 😄 :man_technologist:	I’m an :point_right: DevOps/SecOps.
-- 👯 Open to collaborate on :point_right: All Kind of Small & Big Projects of DevOPS|Cloud Infrastructure| Security Analysis|Server Administration|Hosting Consultation.
-- 💬 Specialized in :point_right: Docker | Kubernetes | ECS | EKS | AKS | Container Instances | Ansible | Terraform | Server Architect |
-Linux Administrator | API Gateway Management | Build & Releases | Continuous Integration | Jenkins |
-Azure Devops | Server Hardening & Tuning | Cloud Architecture and Planning | Automation Engineer | Bulk EMailing, PowerMTA.
+- 😄 :man_technologist:	I’m an :point_right: Full Stack Developer | DevOps/SecOps | Server Expert 
+- 👯 Open to collaborate on :point_right: All Kind of Small & Big Projects of DevOPS | Cloud Infrastructure | Security Analysis | Server Administration|Hosting Consultation.
+
+- 💬 Full Stack Developer Expertise :point_right: Node.js | PHP | React | React Native | Vue.js | MySQL | Postgres | Mongo | GitHub |
+
+- 💬 DevOps Expertise :point_right: Docker | Kubernetes | ECS | EKS | AKS | Container Instances | Ansible | Terraform | Server Architect | API Gateway Management | Build & Releases | CI/CD | Jenkins | Azure Devops | Cloud Architecture and Planning | Automation Engineer | Bulk EMailing, PowerMTA.
+
+- 💬 Server Administration Expertise :point_right: Server Hardening | Performance Tuning | WHM/cPanel | WHMCS | Apache | LiteSpeed | Nginx | CloudLinux
+ 
+- 💬 Database Administration Expertise :point_right: MySQL, MariaDB, MongoDB, PostgreSQL, RDS, MySql Aroura, Amazon DynamoDB
+
 - 📫 How to reach me :point_right: Skype - jarnail.boparai1991 Email - jerrytechbopara@gmail.com
 
 ## Skills
